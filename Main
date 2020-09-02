@@ -1,0 +1,15 @@
+package com.company;
+public class Main {
+
+    public static void main(String[] args) {
+		String name = "Tobi";
+		boolean current_student = true;
+		int age = 4;
+		float gpa = 3.97f;
+
+	System.out.println("This student's name is " + name + ".");
+	System.out.println(name + " is a current student: " + current_student);
+	System.out.println("Age: "+ age + " years old.");
+	System.out.println("GPA: "+ gpa);
+    }
+}
